@@ -1,0 +1,26 @@
+/******************************************************************************
+
+                              Online C++ Compiler.
+               Code, Compile, Run and Debug C++ program online.
+Write your code in this editor and press "Run" button to compile and execute it.
+
+*******************************************************************************/
+
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+
+int main()
+{
+    int a,b,c;
+    cout<<"ingresar primer sumando: " ;
+    cin>>a;
+    cout<<"ingresar el segundo sumando: " ;
+    cin>>b;
+    c=a+b;
+    cout<<"la suma es:"<<c;
+    getch();
+
+    
+}
