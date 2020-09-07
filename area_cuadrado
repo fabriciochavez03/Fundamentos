@@ -1,0 +1,19 @@
+#include "stdafx.h"
+#include<iostream>
+#include"conio.h"
+
+using namespace std;
+
+void main (){
+
+float l,a;
+
+cout<<"Ingrese el valor de l: "<<endl;
+cin>>l;
+a=pow(l,2);
+
+cout<<"El area del cuadrado es: "<<a<<endl;
+
+getch();
+
+}
