@@ -1,0 +1,36 @@
+#include "stdafx.h"
+#include<iostream>
+#include"conio.h"
+#define max 100
+
+using namespace std;
+
+void cargarVector(int x, int vecX[]);
+void MostrarVector(int x, int vecX[]);
+
+int main(){
+	int n, vec[max]; 
+	cout<<"Ingrese el tamaño del vector: ";
+	cin>>n;
+
+	cargarVector(n, vec);
+	MostrarVector(n, vec);
+
+getch();
+return 0;
+}
+
+void cargarVector(int x, int vecX[] ){
+
+	for(int i=0; i<=x; i++){
+	cout<<"Ingrese el valor en la posicion vec["<<i<<"] :";
+	cin>>vecX[i];
+	}
+}
+
+void MostrarVector(int x, int vecX[]){
+
+	for(int i=0; i<=x; i++){
+		cout<<"vec["<<i<<"]="<<vecX[i]<<endl;
+	}
+}
