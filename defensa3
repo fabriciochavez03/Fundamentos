@@ -1,0 +1,27 @@
+#include "stdafx.h"
+#include<iostream>
+#include"conio.h"
+
+
+using namespace std;
+
+
+int main(){
+	
+	char pal[3];
+	
+	
+	cout<<"Ingrese la palabra: ";
+	cin>>pal;
+	
+	if(pal[0]==pal[3]){
+		cout<<"La palabra es palindromo"<<endl;
+		cout<<pal;
+	}
+	else{
+	cout<<"NO es palindromo";
+	}
+		
+getch();
+return 0; 
+}
